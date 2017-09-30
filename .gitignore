@@ -6,6 +6,8 @@
 *.old
 *.old.*
 files/
+.idea/
+debug
 
 # Windows image file caches
 Thumbs.db

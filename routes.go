@@ -23,7 +23,13 @@ var routes = Routes{
     Route{
         "FileHandler",
         "GET",
-        "/file/{fileName}",
+        "/files/{fileName}",
         FileHandler,
+    },
+    Route{
+        "SaveHandler",
+        "POST",
+        "/save",
+		SaveHandler,
     },
 }
